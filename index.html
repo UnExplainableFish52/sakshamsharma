@@ -12,11 +12,11 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
-      background-color: #f0f0f0;
+      background-color: black;
     }
 
     header {
-      background-color: #333;
+      background-color: pink;
       color: #fff;
       padding: 20px;
       text-align: center;
@@ -37,15 +37,30 @@
 
     .about-me, .form {
       padding: 20px;
-      background-color: #fff;
+      background-color: cyan;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       margin: 10px;
       border-radius: 5px;
+    }
+    .contact{
+        color: blueviolet;
+        background-color: greenyellow;
     }
 
     h2 {
       font-size: 2rem;
       margin-bottom: 10px;
+      color: red;
+    }
+    h4 {
+      font-size: 1rem;
+      margin-bottom: 10px;
+      color: red;
+    }
+    h3 {
+      font-size: 1.5rem;
+      margin-left: 15px;
+      color: blueviolet;
     }
 
     input, textarea {
@@ -61,8 +76,10 @@
     }
 
     .subscribe {
-      display: flex;
+    display: flex;
+      float: left;
       align-items: center;
+      align-content: flex-end;
     }
 
     .subscribe input[type="checkbox"] {
@@ -96,6 +113,9 @@
       display: flex;
       justify-content: center;
     }
+      .para{
+          text-align: justify;
+      }
 
     .social-links li {
       margin: 0 10px;
@@ -115,38 +135,46 @@
 <body>
   <header>
       <h2> UnExplainableFish52</h2>
-    <h4>Aspiring Programmer</h4>
+    <h4>An Aspiring Programmer</h4>
   </header>
+  <!-- This image isn't working, I'll do it later. I'm too exhausted lol
   <section class="hero">
-      <!--
-    <img src="your-image.jpg" alt="profile pic" />   -->
+    <img src="uef52.png" alt="profile_pic" />
   </section>
-
+    -->
   <section class="about-me">
     <h3> About UnExplainableFish52</h3>
-    <p>This is the css too much to do with it necessary to make sure you are you online and a half of the css too much to do with it necessary to make sure you are you online and a half of the bottom of the css too much to do with it necessary to make sure you are you.</p>
+    <p class="para"> <!-- I’m Saksham Sharma, a Computer-Scientist turned Quant, and Director of Quantitative Research Technology at Tower Research Capital LLC, based out of New York. I lead our efforts on improving Machine Learning system performance for financial trading, while designing extremely low-latency trading systems and developing complex algorithmic trading strategies for global financial instruments that trade billions of $USD daily.
+<br>
+Alongside my professional work, I contribute to technical committees supporting the software required for high-performance financial systems. I am a member of WG21, The ISO C++ committee which helps standardize and improve the C++ programming language, and am a regular speaker at various major programming language conferences. I am also a member of the Boost organization. I am involved in the C++ language community in various different capacities, am a regular at the New York C++ meetup, and am currently contributing to the development of the Beman project.    -->
+
+Oh, Hi there! I am Saksham Sharma, soon turning 19 this July and if my memory serves me right this is my 6936th day playing hardcore Minecraft in real life. 
+
+I am keenly interested in computer science so I am exploring new things and I recently happened to stumble upon this. Now , if you are reading this it is probably because I recommended you this site myself, I know the site looks utterly basic it is because It actually is. I will learn more and update it later. You can add me on socials , fortunately the links below actually work so why not give it a try. You can always reach to me there and  reach me at contactsaksham52@gmail.com for more details. Thank you for being here though, help me make this better by providing feedbacks. The form below doesnt actually work so theres no point in submitting it. It is there just for formality. 
+
+  </p>
   </section>
 
   <section class="contact">
       
-    <h3> Stay Connected !!</h3>
+    <h3> Stay Connected!!</h3>
     
     <form action="form-submission.php" method="post" class="form">
       <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
+      <input type="text" id="name" name="name" required  placeholder="Your Name" value="Ramesh Poudel"/>
       
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
+      <input type="email" id="email" name="email" required  placeholder="example52@gmail.com"/>
       
       <label for="address"> Address:</label>
-      <input type="address" id="address" name="address" required />
+      <input type="address" id="address" name="address" placeholder="Include country & Province"required value="Kathmandu , Nepal"/>
       
       <div class="subscribe">
         <input type="checkbox" id="subscribe" name="subscribe" />
         <label for="subscribe">Subscribe to Newsletter</label>
       </div>
       
-      <button type="submit">Submit</button>
+      <button type="submit" onclick="fun_on_comp">Submit</button>
     </form>
   </section>
 
