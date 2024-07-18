@@ -1,193 +1,97 @@
-<!-- Hello Inspector! thanks for inspecting  of course I'm copying from AI because I'm a programmer -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UEF52</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      background-color: black;
-    }
-
-    header {
-      background-color: pink;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .hero {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
-
-    .about-me, .form {
-      padding: 20px;
-      background-color: cyan;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      margin: 10px;
-      border-radius: 5px;
-    }
-    .contact{
-        color: blueviolet;
-        background-color: greenyellow;
-    }
-
-    h2 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-      color: red;
-    }
-    h4 {
-      font-size: 1rem;
-      margin-bottom: 10px;
-      color: red;
-    }
-    h3 {
-      font-size: 1.5rem;
-      margin-left: 15px;
-      color: blueviolet;
-    }
-
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      margin-bottom: 10px;
-    }
-
-    .text-area {
-      margin-bottom: 10px;
-    }
-
-    .subscribe {
-    display: flex;
-      float: left;
-      align-items: center;
-      align-content: flex-end;
-    }
-
-    .subscribe input[type="checkbox"] {
-      margin-right: 10px;
-    }
-
-    button {
-      padding: 10px;
-      background-color: #333;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-
-    button:hover {
-      background-color: #555;
-    }
-
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
-
-    .social-links {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-    }
-      .para{
-          text-align: justify;
-      }
-
-    .social-links li {
-      margin: 0 10px;
-    }
-
-    .social-links a {
-      color: #fff;
-      text-decoration: none;
-      transition: color 0.3s;
-    }
-
-    .social-links a:hover {
-      color: #ccc;
-    }
-  </style>
-</head>
-<body>
-  <header>
-      <h2> UnExplainableFish52</h2>
-    <h4>An Aspiring Programmer</h4>
-  </header>
-  <!-- This image isn't working, I'll do it later. I'm too exhausted lol
-  <section class="hero">
-    <img src="uef52.png" alt="profile_pic" />
-  </section>
-    -->
-  <section class="about-me">
-    <h3> About UnExplainableFish52</h3>
-    <p class="para"> <!-- I’m Saksham Sharma, a Computer-Scientist turned Quant, and Director of Quantitative Research Technology at Tower Research Capital LLC, based out of New York. I lead our efforts on improving Machine Learning system performance for financial trading, while designing extremely low-latency trading systems and developing complex algorithmic trading strategies for global financial instruments that trade billions of $USD daily.
-<br>
-Alongside my professional work, I contribute to technical committees supporting the software required for high-performance financial systems. I am a member of WG21, The ISO C++ committee which helps standardize and improve the C++ programming language, and am a regular speaker at various major programming language conferences. I am also a member of the Boost organization. I am involved in the C++ language community in various different capacities, am a regular at the New York C++ meetup, and am currently contributing to the development of the Beman project.    -->
-
-Oh, Hi there! I am Saksham Sharma, soon turning 19 this July and if my memory serves me right this is my 6936th day playing hardcore Minecraft in real life. 
-
-I am keenly interested in computer science so I am exploring new things and I recently happened to stumble upon this. Now , if you are reading this it is probably because I recommended you this site myself, I know the site looks utterly basic it is because It actually is. I will learn more and update it later. You can add me on socials , fortunately the links below actually work so why not give it a try. You can always reach to me there and  reach me at contactsaksham52@gmail.com for more details. Thank you for being here though, help me make this better by providing feedbacks. The form below doesnt actually work so theres no point in submitting it. It is there just for formality. 
-
-  </p>
-  </section>
-
-  <section class="contact">
-      
-    <h3> Stay Connected!!</h3>
-    
-    <form action="form-submission.php" method="post" class="form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required  placeholder="Your Name" value="Ramesh Poudel"/>
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required  placeholder="example52@gmail.com"/>
-      
-      <label for="address"> Address:</label>
-      <input type="address" id="address" name="address" placeholder="Include country & Province"required value="Kathmandu , Nepal"/>
-      
-      <div class="subscribe">
-        <input type="checkbox" id="subscribe" name="subscribe" />
-        <label for="subscribe">Subscribe to Newsletter</label>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> FishyDev52</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero_section">
+      <div class="text_container">
+        <h2><span class="lg_text">Hello!</span> I am Saksham Sharma</h2>
+        <h1 class="lg_text"> An Aspirant Developer</h1>
       </div>
-      
-      <button type="submit" onclick="fun_on_comp">Submit</button>
-    </form>
-  </section>
+    </section>
+    <section class="black_box">
+      <h2>  <span>I'm INTERESTED in </span> </h2>
+    </section>
+    <section class="work">
+      <div class="grid_item">
+        <div class="card">
+          <div class="image_container">
+            <img src="images/web.png" alt="web development" />
+          </div>
+          <div class="card_content">
+            <h3>Web Development</h3>
+            <p>
+              It is quite an interesting topic. I have always been fascinated by interactive websites unfortunately I wasnt lucky enough to quench my thirst in college so I did further study from YouTube and here I am. <!--  I know this is just a basic webpage but hey think positively, we can always learn and improve. So, yeah it has my top interest.  -->
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="grid_item">
+        <div class="card">
+          <div class="image_container">
+            <img src="images/mobile.png" alt="app development" />
+          </div>
+          <div class="card_content">
+            <h3>App Development</h3>
+            <p>
+              I have been playing games since my earliest days and I always wondered how everything works. I always wanted to develop a clone of the games I played and get better at it as I clearly wasn't making any progress.So here I am !
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="grid_item">
+        <div class="card">
+          <div class="image_container">
+            <img src="images/web.png" alt="web development" />
+          </div>
+          <div class="card_content">
+            <h3>UI UX Design</h3>
+            <p>
+              I have little knowledge about this topic so Imma keep this short and coincise. Honestly, I like it because of its name. I thought it is cool to mention it here lol. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 
+    <section class="bottom_section">
+      <div class="contact">
+        <h2>Contact Me</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi dolor,
+          esse quasi doloremque temporibus quis.
+        </p>
+        <p>dosomecoding@example.test</p>
+      </div>
+      <div class="about">
+        <h2>About Me</h2>
 
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi dolor,
+          esse quasi doloremque temporibus quis.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi dolor,
+          esse quasi doloremque temporibus quis.
+        </p>
+      </div>
+    </section>
+     -->
+    
   <footer>
     <p>&copy; 2024 Saksham Sharma</p>
     <ul class="social-links">
-      <li><a href="https://www.facebook.com/UnExplainableFish52?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i> Facebook</a></li>
-      <li><a href="https://x.com/UnExFish52?t=pqN7T6WVJMOHzc3b_5VF0g&s=09"><i class="fab fa-twitter"></i> Twitter</a></li>
-      <li><a href="https://www.instagram.com/unexplainablefish52?igsh=bjNmN3VoZjMxMHJq"><i class="fab fa-instagram"></i> Instagram</a></li>
-      <li><a href="http:\\t.me/UnExplainableFish52"><i class="fab fa-linkedin"></i> Telegram</a></li>
+      <li><a href="https://www.facebook.com/UnExplainableFish52?mibextid=ZbWKwL" class="soclinks"> Facebook</a></li>
+      <li><a href="https://x.com/UnExFish52?t=pqN7T6WVJMOHzc3b_5VF0g&s=09" class="soclinks"> Twitter</a></li>
+      <li><a href="https://www.instagram.com/unexplainablefish52?igsh=bjNmN3VoZjMxMHJq" class="soclinks"> Instagram</a></li>
+      <li><a href="http:\\t.me/UnExplainableFish52" class="soclinks"> Telegram</a></li>
     </ul>
   </footer>
-
-  <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
-</body>
+  
+  </body>
 </html>
